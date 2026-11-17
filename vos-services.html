@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vos services — Mairie de Saint-Augustin</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="topbar flex space-between align-center">
+        <p>📞 01 64 03 15 12 · 6 place du 27 août, 77515 Saint-Augustin</p>
+        <div class="flex gap-24">
+          <a href="#">Facebook</a>
+          <a href="#">Contact</a>
+          <a href="#">Aller au contenu</a>
+        </div>
+      </div>
+      <div class="lowbar flex space-between align-center">
+        <a href="index.html" class="flex align-center gap-16">
+          <span class="logo">S</span>
+          <span class="flex-col">
+            <strong>Saint-Augustin</strong>
+            <small class="small-text text-olive"
+              >Seine-et-Marne · Pays de Brie</small
+            >
+          </span>
+        </a>
+        <nav class="flex align-center gap-24">
+          <a href="index.html">Votre mairie</a>
+          <a href="#">Votre commune</a>
+          <a href="vos-services.html" class="nav-active">Vos services</a>
+          <a href="vie-locale.html">Vie locale</a>
+          <a href="#" class="btn">Écrire au maire</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-inner container">
+          <p class="small-text mb-24">
+            <a href="index.html" class="text-creme">Accueil</a> / Vos services
+          </p>
+          <h1>Vos services et démarches</h1>
+          <p>
+            Toutes les informations pratiques pour simplifier votre quotidien :
+            état civil, urbanisme, écoles et solidarité.
+          </p>
+        </div>
+      </section>
+
+      <nav class="grid grid-4 container cards-top mb-64">
+        <a class="box box-hover text-center" href="#demarches">
+          <span class="icon">📄</span>
+          <h3>Démarches</h3>
+          <p class="small-text">Passeport, État civil</p>
+        </a>
+        <a class="box box-hover text-center" href="#enfance">
+          <span class="icon">🎒</span>
+          <h3>Enfance</h3>
+          <p class="small-text">Écoles, cantine, périscolaire</p>
+        </a>
+        <a class="box box-hover text-center" href="#urbanisme">
+          <span class="icon">🏡</span>
+          <h3>Urbanisme</h3>
+          <p class="small-text">Permis de construire</p>
+        </a>
+        <a class="box box-hover text-center" href="#solidarite">
+          <span class="icon">🤝</span>
+          <h3>Solidarité</h3>
+          <p class="small-text">Aides, seniors</p>
+        </a>
+      </nav>
+
+      <div class="container">
+        <section id="demarches" class="mb-64 scroll-mt">
+          <h2 class="mb-24">Démarches administratives</h2>
+          <div class="grid grid-3">
+            <article class="box box-hover">
+              <h3>Carte d'identité & Passeport</h3>
+              <p class="small-text mt-24">
+                La mairie de Saint-Augustin n'est pas équipée de station
+                biométrique. Retrouvez la liste des mairies équipées aux
+                alentours.
+              </p>
+              <a href="#">Prendre rendez-vous en ligne →</a>
+            </article>
+            <article class="box box-hover">
+              <h3>État civil</h3>
+              <p class="small-text mt-24">
+                Demande d'acte de naissance, mariage, décès, ou livret de
+                famille. Démarches réalisables en mairie ou en ligne.
+              </p>
+              <a href="#">Faire une demande →</a>
+            </article>
+            <article class="box box-hover">
+              <h3>Élections</h3>
+              <p class="small-text mt-24">
+                Inscription sur les listes électorales, vote par procuration et
+                dates des prochains scrutins.
+              </p>
+              <a href="#">Vérifier mon inscription →</a>
+            </article>
+          </div>
+        </section>
+
+        <section id="enfance" class="mb-64 scroll-mt">
+          <h2 class="mb-24">Enfance et Jeunesse</h2>
+          <div class="box bg-vert flex space-between align-center gap-24 mb-24">
+            <div>
+              <h3>Portail Famille</h3>
+              <p>
+                Gérez les inscriptions à la cantine, à l'accueil de loisirs et
+                payez vos factures directement en ligne.
+              </p>
+            </div>
+            <a href="#" class="btn btn-dark">Accéder au portail</a>
+          </div>
+          <div class="grid grid-2">
+            <div class="box box-hover box-top-border">
+              <h3>L'école maternelle et élémentaire</h3>
+              <p class="small-text">
+                Informations sur le groupe scolaire de la commune, horaires et
+                contacts de la direction.
+              </p>
+            </div>
+            <div class="box box-hover box-top-border">
+              <h3>Accueil périscolaire</h3>
+              <p class="small-text">
+                Horaires de garderie du matin et du soir, fonctionnement du
+                centre de loisirs le mercredi.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section id="urbanisme" class="mb-64 scroll-mt">
+          <h2 class="mb-24">Urbanisme</h2>
+          <div class="box bg-dark flex space-between align-center gap-24">
+            <div class="flex-1">
+              <span class="badge badge-translucide">Démarches en ligne</span>
+              <h3>Autorisations d'urbanisme</h3>
+              <p>
+                Vous prévoyez de faire des travaux, construire une extension ou
+                modifier votre clôture ? Déposez votre Déclaration Préalable ou
+                votre Permis de Construire via le guichet numérique.
+              </p>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer>
+      <div class="container grid grid-3 pb-24 footer-bordure">
+        <div>
+          <h3>Mairie de Saint-Augustin</h3>
+          <ul>
+            <li>6 place du 27 août, 77515 Saint-Augustin</li>
+            <li>01 64 03 15 12</li>
+            <li><a href="#">Nous contacter</a></li>
+            <li><a href="#">Facebook</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Liens utiles</h3>
+          <ul>
+            <li><a href="#">Coulommiers Pays de Brie</a></li>
+            <li><a href="#">Tourisme</a></li>
+            <li><a href="#">Service-Public.fr</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Autres informations</h3>
+          <ul>
+            <li><a href="#">Les associations</a></li>
+            <li><a href="#">Les commerces</a></li>
+            <li><a href="#">Plan du site</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

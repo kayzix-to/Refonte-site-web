@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mairie de Saint-Augustin</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="topbar flex space-between align-center">
+        <p>📞 01 64 03 15 12 · 6 place du 27 août, 77515 Saint-Augustin</p>
+        <div class="flex gap-24">
+          <a href="#">Facebook</a>
+          <a href="#">Contact</a>
+          <a href="#">Accessibilité</a>
+        </div>
+      </div>
+      <div class="lowbar flex space-between align-center">
+        <a href="#" class="flex align-center gap-16">
+          <span class="logo">S</span>
+          <span class="flex-col">
+            <strong>Saint-Augustin</strong>
+            <small class="small-text text-olive"
+              >Seine-et-Marne · Pays de Brie</small
+            >
+          </span>
+        </a>
+        <nav class="flex align-center gap-24">
+          <a href="#">Votre mairie</a>
+          <a href="#">Votre commune</a>
+          <a href="vos-services.html">Vos services</a>
+          <a href="vie-locale.html">Vie locale</a>
+          <a href="#" class="btn">Écrire au maire</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div
+          class="hero-inner container flex space-between align-center gap-24"
+        >
+          <div>
+            <span class="badge">🌿 Bienvenue à Saint-Augustin</span>
+            <h1>Votre commune, vos démarches, votre quotidien.</h1>
+            <p>
+              Retrouvez toutes les informations de la mairie : démarches,
+              écoles, déchets, associations et vie locale, en quelques clics.
+            </p>
+            <form class="search" action="#" method="GET">
+              <input
+                type="text"
+                placeholder="Rechercher : carte d'identité, cantine..."
+                required
+              />
+              <button type="submit" class="btn">Rechercher</button>
+            </form>
+          </div>
+          <aside class="box horaires">
+            <h2>🕑 Horaires d'ouverture</h2>
+            <ul>
+              <li><span>Lundi</span><span>14h – 19h</span></li>
+              <li><span>Mardi</span><span>14h – 17h</span></li>
+              <li>
+                <span>Mercredi</span><span class="text-peche">Fermé</span>
+              </li>
+              <li><span>Jeudi</span><span>14h – 17h</span></li>
+              <li><span>Vendredi</span><span>14h – 17h</span></li>
+            </ul>
+            <p class="small-text mt-24">
+              Permanence des élus : vendredi 17h – 19h, sans rendez-vous.
+            </p>
+          </aside>
+        </div>
+      </section>
+
+      <section class="grid grid-5 container cards-top mb-64">
+        <a class="box box-hover text-center" href="#"
+          ><span class="icon">📄</span>
+          <h3>Démarches</h3>
+          <p class="small-text">Papiers, état civil...</p></a
+        >
+        <a class="box box-hover text-center" href="#"
+          ><span class="icon">🎒</span>
+          <h3>Écoles</h3>
+          <p class="small-text">Enfance & scolarité</p></a
+        >
+        <a class="box box-hover text-center" href="#"
+          ><span class="icon">♻️</span>
+          <h3>Déchets</h3>
+          <p class="small-text">Collecte & tri</p></a
+        >
+        <a class="box box-hover text-center" href="#"
+          ><span class="icon">🎭</span>
+          <h3>Loisirs</h3>
+          <p class="small-text">Sorties & asso.</p></a
+        >
+        <a class="box box-hover text-center" href="#"
+          ><span class="icon">✉️</span>
+          <h3>Écrire au maire</h3>
+          <p class="small-text">Contact direct</p></a
+        >
+      </section>
+
+      <section class="container mb-64">
+        <div class="flex space-between align-center mb-24">
+          <h2>À la une</h2>
+          <a href="#">Toutes les actualités →</a>
+        </div>
+        <div class="grid grid-3">
+          <div class="box box-hover">
+            <div class="card-img img-vert"></div>
+            <small class="small-text text-vert">ACTUALITÉ</small>
+            <h3>Titre de l'actualité principale</h3>
+            <p>
+              Résumé court de l'information mise en avant par la mairie, sur
+              deux ou trois lignes.
+            </p>
+          </div>
+          <div class="box box-hover">
+            <div class="card-img img-or"></div>
+            <small class="small-text text-vert">VIE LOCALE</small>
+            <h3>Événement à venir</h3>
+            <p>Date, lieu et courte description.</p>
+          </div>
+          <div class="box box-hover">
+            <div class="card-img img-bleu"></div>
+            <small class="small-text text-vert">INFO PRATIQUE</small>
+            <h3>Avis aux habitants</h3>
+            <p>Travaux, collecte, fermeture exceptionnelle…</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="container mb-64 grid grid-2">
+        <div class="box box-hover">
+          <h2 class="mb-24">Accès rapide aux services</h2>
+          <ul class="grid grid-2 gap-8">
+            <li><a href="#" class="box box-link">🪪 Carte d'identité</a></li>
+            <li><a href="#" class="box box-link">📮 Agence postale</a></li>
+            <li><a href="#" class="box box-link">🏛️ Salle à louer</a></li>
+            <li><a href="#" class="box box-link">🚌 Transports</a></li>
+            <li><a href="#" class="box box-link">🚲 Sport</a></li>
+            <li><a href="#" class="box box-link">❤️ Santé</a></li>
+          </ul>
+        </div>
+        <div class="box bg-dark">
+          <h2 class="mb-24">La commune en chiffres</h2>
+          <p class="chiffre">1 802</p>
+          <p class="small-text">habitants</p>
+          <p class="chiffre">10,37 km²</p>
+          <p class="small-text">de superficie</p>
+          <p class="chiffre">77515</p>
+          <p class="small-text">Nord-Est de la Seine-et-Marne</p>
+        </div>
+      </section>
+
+      <section class="container mb-64">
+        <div class="flex space-between align-center mb-24">
+          <h2>Autour de chez vous</h2>
+          <a href="#">Agenda Sortir en Pays de Brie →</a>
+        </div>
+        <div class="grid grid-3">
+          <div class="box box-hover box-top-border">
+            <h3>🧀 La maison des fromages</h3>
+            <p class="small-text">
+              Un projet d'aménagement dans le couvent des Capucins de
+              Coulommiers.
+            </p>
+          </div>
+          <div class="box box-hover box-top-border">
+            <h3>🚲 Liaisons douces</h3>
+            <p class="small-text">
+              L'agglomération lance une étude sur les circulations douces.
+            </p>
+          </div>
+          <div class="box box-hover box-top-border">
+            <h3>🌐 Fibre optique</h3>
+            <p class="small-text">
+              Le déploiement du très haut débit se poursuit sur le territoire.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="container mb-64">
+        <div class="box bg-or flex space-between align-center gap-24">
+          <div>
+            <h2>Un dépôt sauvage ? Un problème dans la commune ?</h2>
+            <p>Signalez-le en quelques secondes, la mairie s'en occupe.</p>
+          </div>
+          <a href="#" class="btn btn-dark">Faire un signalement</a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container grid grid-3 pb-24 footer-bordure">
+        <div>
+          <h3>Mairie de Saint-Augustin</h3>
+          <ul>
+            <li>6 place du 27 août, 77515 Saint-Augustin</li>
+            <li>01 64 03 15 12</li>
+            <li><a href="#">Nous contacter</a></li>
+            <li><a href="#">Facebook</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Liens utiles</h3>
+          <ul>
+            <li><a href="#">Coulommiers Pays de Brie</a></li>
+            <li><a href="#">Tourisme</a></li>
+            <li><a href="#">Service-Public.fr</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Autres informations</h3>
+          <ul>
+            <li><a href="#">Les associations</a></li>
+            <li><a href="#">Les commerces</a></li>
+            <li><a href="#">Plan du site</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

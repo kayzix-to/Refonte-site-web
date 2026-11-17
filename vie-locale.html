@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vie locale — Mairie de Saint-Augustin</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="topbar flex space-between align-center">
+        <p>📞 01 64 03 15 12 · 6 place du 27 août, 77515 Saint-Augustin</p>
+        <div class="flex gap-24">
+          <a href="#">Facebook</a>
+          <a href="#">Contact</a>
+          <a href="#">Aller au contenu</a>
+        </div>
+      </div>
+      <div class="lowbar flex space-between align-center">
+        <a href="index.html" class="flex align-center gap-16">
+          <span class="logo">S</span>
+          <span class="flex-col">
+            <strong>Saint-Augustin</strong>
+            <small class="small-text text-olive"
+              >Seine-et-Marne · Pays de Brie</small
+            >
+          </span>
+        </a>
+        <nav class="flex align-center gap-24">
+          <a href="index.html">Votre mairie</a>
+          <a href="#">Votre commune</a>
+          <a href="vos-services.html">Vos services</a>
+          <a href="vie-locale.html" class="nav-active">Vie locale</a>
+          <a href="#" class="btn">Écrire au maire</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-inner container">
+          <p class="small-text mb-24">
+            <a href="index.html" class="text-creme">Accueil</a> / Vie locale
+          </p>
+          <h1>Vie locale</h1>
+          <p>
+            Retrouvez les hébergements, les sorties, les activités sportives et
+            les nouvelles de Saint-Augustin.
+          </p>
+        </div>
+      </section>
+
+      <nav class="grid grid-4 container cards-top mb-64">
+        <a class="box box-hover text-center" href="#tourisme"
+          ><span class="icon">🌳</span>
+          <h3>Tourisme</h3>
+          <p class="small-text">Gîtes et chambres d’hôtes</p></a
+        >
+        <a class="box box-hover text-center" href="#loisirs"
+          ><span class="icon">🎭</span>
+          <h3>Loisirs</h3>
+          <p class="small-text">Sorties et événements</p></a
+        >
+        <a class="box box-hover text-center" href="#sport"
+          ><span class="icon">⚽</span>
+          <h3>Sport</h3>
+          <p class="small-text">Le city stade</p></a
+        >
+        <a class="box box-hover text-center" href="#communication"
+          ><span class="icon">📰</span>
+          <h3>Communiation</h3>
+          <p class="small-text">Bulletin municipal</p></a
+        >
+      </nav>
+
+      <div class="container">
+        <section id="tourisme" class="mb-64 scroll-mt">
+          <h2 class="mb-24">Tourisme et hébergements</h2>
+          <div class="box bg-vert mb-24 flex space-between align-center">
+            <div>
+              <h3>Découvrir le Pays de Brie</h3>
+              <p>
+                Retrouvez les sorties, animations, foires et manifestations de
+                la région auprès de l’office de tourisme.
+              </p>
+            </div>
+            <a class="btn" href="#">Office de tourisme</a>
+          </div>
+
+          <h3 class="mt-64 mb-24">Gîtes et chambres d’hôtes</h3>
+          <div class="grid grid-3">
+            <article class="box box-hover">
+              <h4>Le moulin de Saint Augustin</h4>
+              <p class="small-text mt-24">
+                28 rue du Moulinet<br />77515 Saint-Augustin
+              </p>
+              <ul>
+                <li>03 75 63 81 76</li>
+                <li>ms.augustin@gmail.fr</li>
+              </ul>
+            </article>
+            <article class="box box-hover">
+              <h4>La bergerie du Poncet</h4>
+              <p class="small-text mt-24">
+                360 rue de la Cascade<br />77515 Saint-Augustin
+              </p>
+              <ul>
+                <li>01 46 41 79 00</li>
+                <li>b.poncet@gmail.com</li>
+              </ul>
+            </article>
+            <article class="box box-hover">
+              <h4>Couleur jardin</h4>
+              <p class="small-text mt-24">
+                53 bis rue de Melun<br />77515 Saint-Augustin
+              </p>
+              <ul>
+                <li>09 59 85 59 71</li>
+                <li>c.jardin@gmail.com</li>
+              </ul>
+            </article>
+          </div>
+        </section>
+
+        <section id="loisirs" class="mb-64 scroll-mt">
+          <h2 class="mb-24">Loisirs et culture</h2>
+          <div class="grid grid-2">
+            <article class="box box-hover">
+              <h3>Agenda des sorties</h3>
+              <p>
+                Les événements et animations du Pays de Brie sont disponibles
+                dans l’agenda en ligne.
+              </p>
+              <a href="#">Consulter l’agenda →</a>
+            </article>
+            <article class="box box-hover">
+              <h3>Les actualités culturelles</h3>
+              <p>
+                La commune partage ses actualités et ses animations sur sa page
+                Facebook.
+              </p>
+              <a href="#">Voir les actualités →</a>
+            </article>
+          </div>
+        </section>
+
+        <section id="sport" class="mb-64 scroll-mt">
+          <h2 class="mb-24">Sport</h2>
+          <div class="box bg-dark flex space-between align-center gap-24">
+            <div class="flex-1">
+              <span class="badge badge-translucide">Terrain multisports</span>
+              <h3>Le city stade</h3>
+              <p>
+                Créé en 2022, le city stade se situe rue de Beautheil, derrière
+                les écoles. Son terrain permet de pratiquer plusieurs sports :
+                basket, handball, volley et football.
+              </p>
+              <p class="small-text m-0">
+                📍 Rue de Beautheil, 77515 Saint-Augustin
+              </p>
+            </div>
+            <div class="grid grid-2 gap-8 flex-1">
+              <span class="tag">🏀 Basket</span>
+              <span class="tag">🤾 Handball</span>
+              <span class="tag">🏐 Volley</span>
+              <span class="tag">⚽ Football</span>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer>
+      <div class="container grid grid-3 pb-24 footer-bordure">
+        <div>
+          <h3>Mairie de Saint-Augustin</h3>
+          <ul>
+            <li>6 place du 27 août, 77515 Saint-Augustin</li>
+            <li>01 64 03 15 12</li>
+            <li><a href="#">Nous contacter</a></li>
+            <li><a href="#">Facebook</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Liens utiles</h3>
+          <ul>
+            <li><a href="#">Coulommiers Pays de Brie</a></li>
+            <li><a href="#">Tourisme</a></li>
+            <li><a href="#">Service-Public.fr</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Autres informations</h3>
+          <ul>
+            <li><a href="#">Les associations</a></li>
+            <li><a href="#">Les commerces</a></li>
+            <li><a href="#">Plan du site</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
